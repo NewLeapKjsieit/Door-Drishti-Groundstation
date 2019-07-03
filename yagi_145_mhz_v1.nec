@@ -1,0 +1,24 @@
+CM 
+CE
+SY dipole=0.499
+SY ref=0.539303
+SY d1=0.4735
+SY d2=0.4645
+SY d3=0.460027
+SY dist1=0.259
+SY dist2=0.393
+SY dist3=0.86
+SY dist4=1.463
+SY dist5=1.94
+GW	1	1	0	ref	2	0	-ref	2	0.01
+GW	2	1	dist1	dipole	2	dist1	-dipole	2	0.01
+GW	3	1	dist2	d1	2	dist2	-d1	2	0.01
+GW	4	1	dist3	d2	2	dist3	-d2	2	0.01
+GW	5	1	dist4	d2	2	dist4	-d2	2	0.01
+GW	6	1	dist5	d3	2	dist5	-d3	2	0.01
+GE	1
+GN	2	0	0	0	3	0.0001
+EK
+EX	0	2	1	0	1	0	0
+FR	0	0	0	0	145	0
+EN
